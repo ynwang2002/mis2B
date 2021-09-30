@@ -22,6 +22,27 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+	<script>
+		$(document).ready(function(){
+			$("#I").hover(function(){
+				$("#PICTURE").attr("src","doremi.jpg");
+			});
+
+			$("#PU").hover(function(){
+				$("#PICTURE").attr("src","pu.jpg");
+			});
+
+			$("#CSIM").hover(function(){
+				$("#PICTURE").attr("src","csim.jpg");
+			});
+
+			$("#PICTURE").click(function(){
+				$("#PICTURE").hide();
+				$("#PICTURE").fadeIn("slow")
+			});
+		});
+	</script>
+
 
 </head>
 <body>
@@ -44,12 +65,12 @@
 	<main class="container-fluid bg-info text-white text-center">
 
 		<nav>
-			<h1><a href="http://www1.pu.edu.tw/~s1090350/1" class="text-reset text-decoration-none text-white bg-primary">王雅妮 (Ya-Ni Wang) </a></h1>
-			<h2><a href="https://www.pu.edu.tw/" class="text-reset text-decoration-none text-white bg-primary">靜宜大學</a>
-			 / <a href="https://csim.pu.edu.tw/" class="text-reset text-decoration-none text-white bg-primary">資訊管理學系</a></h2>
+			<h1><a href="http://www1.pu.edu.tw/~s1090350/1" class="text-reset text-decoration-none text-white bg-primary" target="_blank" id="I">王雅妮 (Ya-Ni Wang) </a></h1>
+			<h2><a href="https://www.pu.edu.tw/" class="text-reset text-decoration-none text-white bg-primary" id="PU">靜宜大學</a>
+			 / <a href="https://csim.pu.edu.tw/" class="text-reset text-decoration-none text-white bg-primary" id="CSIM">資訊管理學系</a></h2>
 		</nav>
 
-		<img src="cute.jpg" alt="照片" class="img-fluid rounded-circle"
+		<img src="cute.jpg" alt="照片" class="img-fluid rounded-circle" id="PICTURE"
 > 
 		<br><br><br>
 
