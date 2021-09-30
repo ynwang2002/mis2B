@@ -14,6 +14,10 @@
 			color: #55ff55; }
 	</style>
 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
 </head>
 <body>
 	<nav>
@@ -24,37 +28,39 @@
 		</ul>
 	</nav>
 
-	<main>
+	<main class="container-fluid bg-info text-white text-center">
+
 		<nav>
-		<h1><a href="http://www1.pu.edu.tw/~s1090350/1">王雅妮 (Ya-Ni Wang) </a></h1>
-		<h2><a href="https://www.pu.edu.tw/">靜宜大學</a>
-		 / <a href="https://csim.pu.edu.tw/">資訊管理學系</a></h2>
+			<h1><a href="http://www1.pu.edu.tw/~s1090350/1">王雅妮 (Ya-Ni Wang) </a></h1>
+			<h2><a href="https://www.pu.edu.tw/">靜宜大學</a>
+			 / <a href="https://csim.pu.edu.tw/">資訊管理學系</a></h2>
 		</nav>
 
-		照片<br>
 		<img src="cute.jpg" alt="照片"> 
 		<br><br><br>
 
-		<session id="aboutme">
-			<header>關於我</header>
-			<h3>職稱：-----------</h3>
-			<h3>經歷：-----------</h3>
-			<h3>Tel:<a href="09xx-xxx-xxx"> 09xx-xxx-xxx</a></h3>
-			<h3>E-Mail:<a href="s1090350@gm.pu.edu.tw">s1090350@gm.pu.edu.tw</a></h3>
-		</session>
+		<div class="row">
+			<session id="aboutme" class="col-lg-4">
+				<header>關於我</header>
+				<h3>職稱：-----------</h3>
+				<h3>經歷：-----------</h3>
+				<h3>Tel:<a href="09xx-xxx-xxx"> 09xx-xxx-xxx</a></h3>
+				<h3>E-Mail:<a href="s1090350@gm.pu.edu.tw">s1090350@gm.pu.edu.tw</a></h3>
+			</session>
 
-		<article id="bookmark">
-			<header>珍藏書籤</header> 
-			<h3>生命中的每一剎時間</h3>
-			<h3>都是向永恆借來的片羽</h3>
-			<h3>胸襟中的每一縷柔情</h3>
-			<h3>都是無限天機所流瀉的微光</h3>
-		</article>
-		
-		<aside id="youtube">
-			<header>推薦影片</header>
-			<iframe src="https://www.youtube.com/embed/AhAJ6J01R7w"></iframe>
-		</aside>
+			<article id="bookmark" class="col-lg-4">
+				<header>珍藏書籤</header> 
+				<h3>生命中的每一剎時間</h3>
+				<h3>都是向永恆借來的片羽</h3>
+				<h3>胸襟中的每一縷柔情</h3>
+				<h3>都是無限天機所流瀉的微光</h3>
+			</article>
+			
+			<aside id="youtube" class="col-lg-4">
+				<header>推薦影片</header>
+				<iframe src="https://www.youtube.com/embed/AhAJ6J01R7w"></iframe>
+			</aside>
+		</div><br><br>
 		
 		<footer>
 			Copyright ©  王雅妮. All Rights Reserved.
