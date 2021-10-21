@@ -93,7 +93,7 @@
 		</div><br><br>
 		
 		<footer>
-			Copyright ©  王雅妮. All Rights Reserved.
+			Copyright © <?php echo date("Y-m-d") ?> 王雅妮. All Rights Reserved.
 		</footer>
 		
 	</main>
